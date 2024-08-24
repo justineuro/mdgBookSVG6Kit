@@ -37,7 +37,7 @@ pdflatex -synctex=1 -interaction=nonstopmode -shell-escape mdgBookSVG6v1.tex
 pdflatex -synctex=1 -interaction=nonstopmode -shell-escape mdgBookSVG6v1.tex
 ```
 
-Also, line 32 of the `HOWTO` is set by default so that each new book created contains 150 DCSMs.  One may wish to change this number, as desired, to some other counting number.  This has to be done **before** issuing the `bash HOWTO` command within the `mdgBookSVG6Kit` (or `mdgBookSVG6Kit-main`) directory.
+Also, line 32 of the `HOWTO` is set by default so that each new book created contains 20 SDs.  One may wish to change this number, as desired, to some other counting number.  This has to be done **before** issuing the `bash HOWTO` command within the `mdgBookSVG6Kit` (or `mdgBookSVG6Kit-main`) directory.
 
 ## Similar Kits on GitHub
 MDG Book kits similar to this may be found on related GitHub sites such as:
