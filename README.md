@@ -23,7 +23,7 @@ To examine an example of a book (`mdgBookSVG6v1.pdf`) that was generated in a si
 (**Note**: To enable the MIDI audio links in the book, one should download [mdgBookSVG6v1_1-midi.zip](https://github.com/justineuro/mdgBookSVG6Kit/raw/main/mdgBookSVG6v1_1-midi.zip) and unzip in the same directory in one's computer that contains the book, i.e., the book and midi files have to be in the same directory).
 
 ## Important Parameters
-To personalize one's generated book (in addition to the randomly generated DCMS), one may want to change some of the default parameters/values in the following (all three files are initially found in the main directory but are eventually moved into the `res` folder): 
+To personalize one's generated book (in addition to the randomly generated SDs), one may want to change some of the default parameters/values in the following (all three files are initially found in the main directory but are eventually moved into the `res` folder): 
 
 - `mdgBookSVG6v1.tex` - (main latex file) see lines 37-47; also, one may have to occassionally change the \\topmargin and \\textheight values on lines 269 and 270 of this file to ensure that each audio MIDI file will be on the same page as the corresponding musical score; these values affect the pages containing the 20 SDs and are different from the global values that appear on lines 31 and 32 near the top part of the file
 - `mdgBookSVG6v1-cover.tex`- makes the cover of the book; see lines 37-47 of `mdgBookSVG6v1.tex` for default values
