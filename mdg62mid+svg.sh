@@ -1,9 +1,9 @@
 #!/bin/bash
 #===================================================================================
 #
-#	 FILE:	ggst2mid+svg1.sh (dances+trios)
+#	 FILE:	mdg62mid+svg.sh (dances+trios)
 #
-#	USAGE:	ggst2mid+svg1.sh n1 n2 n3 n4 n5 n6 n7 n8 n9 n10 n11 n12 n13 n14 n15 n16 
+#	USAGE:	mdg62mid+svg.sh n1 n2 n3 n4 n5 n6 n7 n8 n9 n10 n11 n12 n13 n14 n15 n16 
 #
 #		where n1-n16 are any of the 6 possible outcomes of a toss of
 #		one ordinary six-sided die, e.g., n1-n16 are 16 integers, not necessarily 
