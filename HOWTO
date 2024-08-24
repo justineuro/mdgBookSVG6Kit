@@ -7,7 +7,7 @@
 #		`bin` - folder for Bash files: mdg62mid+svg.sh, mdg62midRndN+svg.sh, mdgEntriesSVGgg2.sh
 #		`images` - folder for image files for book cover/title page: 1ed.png, FrontCover.pdf
 #		`res` - folder for ABC, SVG, PDF output files; should initially contain: 
-#			
+#			sd-TAB.pdf - table of measure numbers
 #			gerlach-schottische.abc - table of measures 
 #			hyperref.cfg - file containing the \hypersetup{} keyvalues for the \hyperref pkg
 #			mdg6.bib - bibliography file for the book
@@ -16,9 +16,9 @@
 
 	mkdir bin images res
 	mv *.sh bin
-	mv 1ed.png images; mv FrontCover.pdf images
-	mv gerlach-schottische.abc res; mv hyperref.cfg res; mv mdg6.bib res
-	mv *.tex res
+	mv 1ed.png images; mv FrontCover.pdf images 
+	mv sd-TAB.pdf res; mv gerlach-schottische.abc res
+	mv *.tex res; mv hyperref.cfg res; mv mdg6.bib res
 
 # Change directory res folder then, for each  Bash file in `bin`, create a link 
 # from `bib` to `res`
