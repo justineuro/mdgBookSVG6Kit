@@ -15,10 +15,10 @@
 #		"Schottische Taenze"
 #
 #      AUTHOR:	J.L.A. Uro (justineuro@gmail.com)
-#     VERSION:	0.0.1
+#     VERSION:	0.0.2
 #     LICENSE:	Creative Commons Attribution 4.0 International License (CC-BY)
 #     CREATED:	08.19.2024 13:39:09
-#    REVISION:	08.22.2024 14:38:50
+#    REVISION:	08.26.2024 14:24:34
 #==================================================================================
 
 #----------------------------------------------------------------------------------
@@ -242,7 +242,7 @@ for measj in ${diceS[*]} ; do
 		filento_dance=${filen/.abc/}-to16.abc
 		cp $filen  ${filento_dance}
 		# remove repeat signs
-		sed -i 's/|:/|/g' ${filento_dance}
+		sed -i 's/|://g' ${filento_dance}
 		sed -i 's/:|/|/g' ${filento_dance}
 		continue
 	elif [ "$currMeas" == "25" ]; then
@@ -303,7 +303,10 @@ catToFile "% change back tempo to 1/4=70 in filen
 [V:1][Q:1/4=70]
 [V:2][Q:1/4=70]"
 ## add the dance temp file to to filen
-sed -n '24,73p' ${filento_dance} >> $filen 
+sed -n '24,71p' ${filento_dance} >> $filen 
+## at the end of each of the last two lines, add "]" (for end bar)
+echo "`sed -n '72p' ${filento_dance}`]" >> $filen 
+echo "`sed -n '73p' ${filento_dance}`]" >> $filen 
 ## abc to midi
 abc2midi ./$filen -quiet -silent -o ./"ggst-$fileInd-$fileInd2.mid"
 ## delete the dance temp file
