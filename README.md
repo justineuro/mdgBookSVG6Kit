@@ -4,6 +4,8 @@
 
 ![](./ggst-SD.svg)
 
+[Audio: &nbsp; [ogg](./audio-samples/ggst-2-2-6-6-4-4-5-5-2-2-2-2-6-6-3-3-4-4-5-5-1-1-4-4-5-5-6-6-1-1-3-3.mid) &nbsp;&nbsp; [midi](./audio-samples/ggst-2-2-6-6-4-4-5-5-2-2-2-2-6-6-3-3-4-4-5-5-1-1-4-4-5-5-6-6-1-1-3-3.mid)]
+
 This folder contains materials that allow the user to author a book containing a collection of [Musical Dice Games (MDG)](https://en.wikipedia.org/wiki/Musikalisches_W%C3%BCrfelspiel) SDs, generated based on the rules given in Gustav Gerlach's [*Kunst, Schottische Taenze zu componiren, ohne musicalisch zu sein, dargestellt in einer Würfel- und
 Noten-Tabelle, nebst Anleitung*](https://imslp.org/wiki/Kunst%2C_Schottische_Taenze_zu_componiren%2C_ohne_musicalisch_zu_sein_(Gerlach%2C_Gustav)).
 
@@ -20,7 +22,7 @@ To examine an example of a book (`mdgBookSVG6v1.pdf`) that was generated in a si
 
 [![Front Cover](./mdgBookSVG6v1-tit.jpg)](https://raw.githubusercontent.com/justineuro/mdgBookSVG6Kit/main/mdgBookSVG6v1.pdf)
 
-(**Note**: To enable the MIDI audio links in the book, one should download [mdgBookSVG6v1_1-midi.zip](https://github.com/justineuro/mdgBookSVG6Kit/raw/main/mdgBookSVG6v1_1-midi.zip) and unzip in the same directory in one's computer that contains the book, i.e., the book and midi files have to be in the same directory).
+(**Note**: To enable the MIDI audio links in the book, one should download [mdgBookSVG6v1_1-midi.zip](https://github.com/justineuro/mdgBookSVG6Kit/raw/main/mdgBookSVG6v1_1-midi.zip) and unzip in the same directory in one's computer that contains the book, i.e., the book and midi files have to be in the same directory.  These same midis in ogg format: [mdgBookSVG6v1-ogg.zip](https://github.com/justineuro/mdgBookSVG6Kit/raw/main/mdgBookSVG6v1-ogg.zip))
 
 ## Important Parameters
 To personalize one's generated book (in addition to the randomly generated SDs), one may want to change some of the default parameters/values in the following (all three files are initially found in the main directory but are eventually moved into the `res` folder): 
