@@ -4,7 +4,7 @@
 
 ![](./ggst-SD.svg)
 
-[Audio: &nbsp; [ogg](./audio-samples/ggst-2-2-6-6-4-4-5-5-2-2-2-2-6-6-3-3-4-4-5-5-1-1-4-4-5-5-6-6-1-1-3-3.mid) &nbsp;&nbsp; [midi](./audio-samples/ggst-2-2-6-6-4-4-5-5-2-2-2-2-6-6-3-3-4-4-5-5-1-1-4-4-5-5-6-6-1-1-3-3.mid)]
+[Audio: &nbsp; [ogg](./audio-samples/ggst-2-2-6-6-4-4-5-5-2-2-2-2-6-6-3-3-4-4-5-5-1-1-4-4-5-5-6-6-1-1-3-3.ogg) &nbsp;&nbsp; [midi](./audio-samples/ggst-2-2-6-6-4-4-5-5-2-2-2-2-6-6-3-3-4-4-5-5-1-1-4-4-5-5-6-6-1-1-3-3.mid)]
 
 This folder contains materials that allow the user to author a book containing a collection of [Musical Dice Games (MDG)](https://en.wikipedia.org/wiki/Musikalisches_W%C3%BCrfelspiel) SDs, generated based on the rules given in Gustav Gerlach's [*Kunst, Schottische Taenze zu componiren, ohne musicalisch zu sein, dargestellt in einer Würfel- und
 Noten-Tabelle, nebst Anleitung*](https://imslp.org/wiki/Kunst%2C_Schottische_Taenze_zu_componiren%2C_ohne_musicalisch_zu_sein_(Gerlach%2C_Gustav)).
