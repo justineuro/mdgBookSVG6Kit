@@ -9,7 +9,7 @@
 This folder contains materials that allow the user to author a book containing a collection of [Musical Dice Games (MDG)](https://en.wikipedia.org/wiki/Musikalisches_W%C3%BCrfelspiel) SDs, generated based on the rules given in Gustav Gerlach's [*Kunst, Schottische Taenze zu componiren, ohne musicalisch zu sein, dargestellt in einer Würfel- und
 Noten-Tabelle, nebst Anleitung*](https://imslp.org/wiki/Kunst%2C_Schottische_Taenze_zu_componiren%2C_ohne_musicalisch_zu_sein_(Gerlach%2C_Gustav)).
 
-To creat a book, simply [download](https://github.com/justineuro/mdgBookSVG6Kit/archive/main.zip) (or clone: `git clone https://github.com/justineuro/mdgBookSVG6Kit.git`) this project to one's computer, unzip the downloaded archive, and at the command line inside the main folder (`mdgBookSVG6Kit-main` or `mdgBookSVG6Kit-main` directory) issue the following command (pre-requisites: `bash`, `abcmidi`, `abcm2ps`, `Ghostscript`, `Inkscape`, and `LaTeX`):
+To creat a book, simply [download](https://github.com/justineuro/mdgBookSVG6Kit/archive/main.zip) (or clone: `git clone https://github.com/justineuro/mdgBookSVG6Kit.git`) this project to one's computer, unzip the downloaded archive, and at the command line inside the main folder (`mdgBookSVG6Kit` or `mdgBookSVG6Kit-main` directory) issue the following command (pre-requisites: `bash`, `abcmidi`, `abcm2ps`, `Ghostscript`, `Inkscape`, and `LaTeX`):
 
 ```shell
 bash HOWTO
