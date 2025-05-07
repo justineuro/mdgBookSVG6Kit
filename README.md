@@ -27,11 +27,11 @@ To examine an example of a book (`mdgBookSVG6v1.pdf`) that was generated in a si
 ## Important Parameters
 To personalize one's generated book (in addition to the randomly generated SDs), one may want to change some of the default parameters/values in the following (all three files are initially found in the main directory but are eventually moved into the `res` folder): 
 
-- `mdgBookSVG6v1.tex` - (main latex file) see lines 37-47; also, one may have to occassionally change the \\topmargin and \\textheight values on lines 269 and 270 of this file to ensure that each audio MIDI file will be on the same page as the corresponding musical score; these values affect the pages containing the 20 SDs and are different from the global values that appear on lines 31 and 32 near the top part of the file
+- `mdgBookSVG6v1.tex` - (main latex file) see lines 37-47; also, one may have to occasionally change the \\topmargin and \\textheight values on lines 269 and 270 of this file to ensure that each audio MIDI file will be on the same page as the corresponding musical score; these values affect the pages containing the 20 SDs and are different from the global values that appear on lines 31 and 32 near the top part of the file
 - `mdgBookSVG6v1-cover.tex`- makes the cover of the book; see lines 37-47 of `mdgBookSVG6v1.tex` for default values
 - `hyperref.cfg` - contains the `\hypersetup` keyvalues; one may wish to change the default value of `pdfauthor`, among other keyvalues; see the documentation for the TeX package `hyperref` for more information on these keyvalues
 
-Once the desired changes have been made to the files above, one can then re-compile the book by issuing, in the `res` subdirectoy, the last set of commmands in the HOWTO file:
+Once the desired changes have been made to the files above, one can then re-compile the book by issuing, in the `res` subdirectory, the last set of commands in the HOWTO file:
 ```shell
 pdflatex -synctex=1 -interaction=nonstopmode -shell-escape mdgBookSVG6v1.tex
 bibtex mdgBookSVG6v1.aux
@@ -41,7 +41,7 @@ pdflatex -synctex=1 -interaction=nonstopmode -shell-escape mdgBookSVG6v1.tex
 
 Also, line 32 of the `HOWTO` is set by default so that each new book created contains 20 SDs.  One may wish to change this number, as desired, to some other counting number.  This has to be done **before** issuing the `bash HOWTO` command within the `mdgBookSVG6Kit` (or `mdgBookSVG6Kit-main`) directory.
 
-## Similar Kits on GitHub
+## Similar Kits (by the same author) on GitHub
 MDG Book kits similar to this may be found on related GitHub sites such as:
 
 - [mdgBookSVGKit](https://github.com/justineuro/mdgBookSVGKit) - MDG based on [*Musikalisches W&uuml;rferspiel, K. 516f*](http://imslp.org/wiki/Musikalisches_W%C3%BCrfelspiel,_K.516f_%28Mozart,_Wolfgang_Amadeus%29), attributed to Wolfgang Amadeus Mozart
@@ -49,6 +49,8 @@ MDG Book kits similar to this may be found on related GitHub sites such as:
 - [mdgBookSVG3Kit](https://justineuro.github.io/mdgBookSVG3Kit) - One-Command Kit for Creating MDG (Kirnberger) Minuet-Trios Collection Book, the minuet-trios are generated based on the rules given in [*Der allezeit fertige Polonoisen- und Menuettencomponist* (*1757*)](https://imslp.org/wiki/Der_allezeit_fertige_Polonoisen-_und_Menuettencomponist_(Kirnberger%2C_Johann_Philipp)) 
 - [mdgBookSVG4Kit](https://justineuro.github.io/mdgBookSVG4Kit) - One-Command Kit for Creating MDG Minuet-Trios Collection Book, the minuet-trios are generated based on the rules given in [*Table pour composer des Minuets et des Trios &agrave; la infinie*](http://imslp.org/wiki/Table_pour_composer_des_Minuets_et_des_Trios_%C3%A0_la_infinie_(Stadler,_Maximilian)) (also known as or *Tabelle welcher aus man unzählige Menuetten und Trio für das Klavier herauswürfeln kann* or *Gioco Filarmonico o sia maniera facile per comporre un infinito numero di menuetti e trio, anche senza sapere il contrapunto*) 
 - [mdgBookSVG4itKit](https://github.com/justineuro/mdgBookSVG4itKit) - MDG based on [*Gioco Filarmonico o sia maniera facile per comporre un infinito numero di menuetti e trio, anche senza sapere il contrapunto*](http://imslp.org/wiki/Table_pour_composer_des_Minuets_et_des_Trios_%C3%A0_la_infinie_(Stadler,_Maximilian)); similar to  [mdgBookSVG4Kit](https://github.com/justineuro/mdgBookSVG4Kit) but arranged for three (3) instruments
+- [mdgBookSVG7Kit](https://justineuro.github.io/mdgBookSVG7Kit) - One-Command Kit for Creating MDG Rondos Collection Book, each rondo is generated based on the rules given in [_L'art de composer de la musique sans en connaître les éléments - 5th Cahier 2nd Ed. (1802)_](https://s9.imslp.org/files/imglnks/usimg/6/63/IMSLP653334-PMLP1047762-L'Art_de_composer_de_la_-...-Calegari_Antonio_bpt6k9617931c.pdf)
+- [mdgBookSVG8Kit](https://justineuro.github.io/mdgBookSVG8Kit) - One-Command Kit for Creating MDG Minuets Collection Book, each minuet is generated based on the rules given in [*Ludus Melothedicus 2nd ed. (1759)*](https://imslp.org/wiki/Ludus_Melothedicus_(Anonymous))
 
 ## Related Sites
 - [Opus Infinity](https://opus-infinity.org/) - Collaborative work of Robbert Harms, Hein Moors, and Suus van Petegem whose goal is to unravel the mystery behind the tables used for generating MDGs.  Site visitors can generate MDGs based on works of Kirnberger, Mozart, Stadler/Haydn, Bach, and Gerlach.  Corresponding audio files (<tt>mid</tt>, <tt>ogg</tt>, and/or <tt>mp3</tt>) and image files (<tt>pdf</tt> or <tt>png</tt>) are also made available for listening, viewing, or downloading.
