@@ -12,16 +12,16 @@
 #		dance + trio based on Gustav Gerlach's "Schottische Taenze"
 #
 #      AUTHOR:	J.L.A. Uro (justineuro@gmail.com)
-#     VERSION:	0.0.0
+#     VERSION:	0.0.1
 #     LICENSE:	Creative Commons Attribution 4.0 International License (CC-BY)
 #     CREATED:	2024/08/21 19:36:26
-#    REVISION:	
+#    REVISION:	2025/05/13 10:37:34
 #==================================================================================
 
 #----------------------------------------------------------------------------------
 # define the function genS() that randomly chooses an integer from 1 to 6, inclusive
 #----------------------------------------------------------------------------------
-genS() { # RANDOM randomly generates an integer from 0 to 32765
+genS() { # RANDOM randomly generates an integer from 0 to 32767
 	rnd=32766
 	until [ $rnd -lt 32766 ]
 	do
